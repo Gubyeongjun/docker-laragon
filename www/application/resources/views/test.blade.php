@@ -33,9 +33,8 @@
 
     .head_img{
       margin: 0 auto;
-      width: 100px;
-      height: 100px;
-      margin-bottom: -50px;
+      width: 200px;
+      height: 200px;
     }
 
     .sug{
@@ -227,11 +226,11 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <div class="head_img">
-        <a href="#"><img src="" alt="head_img"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/8935/8935922.png" alt="head_img" style="width:200px; height:200px; "></a>
       </div>
-      <h1>GAMEs</h1>
+      <!-- <h1>GAMEs</h1>
       <br>
-      <p>PC / CONSOLE <br> 혼자나 여럿이서 하면 좋은 게임</p>
+      <p>PC / CONSOLE <br> 혼자나 여럿이서 하면 좋은 게임</p> -->
     </div>
   </div>
 
@@ -295,21 +294,23 @@
   </div>
 
   <div id="main">
-    <div class="raw">
-      <div class="cell">1</div>
-      <div class="cell">2</div>
-      <div class="cell">3</div>
-    </div>
-    <div class="raw">
-      <div class="cell">4</div>
-      <div class="cell">5</div>
-      <div class="cell">6</div>
-    </div>
-    <div class="raw">
-      <div class="cell">7</div>
-      <div class="cell">8</div>
-      <div class="cell">9</div>
-    </div>
+    
+      <div class="raw">
+        <div class="cell">1</div>
+        <div class="cell">2</div>
+        <div class="cell">3</div>
+      </div>
+      <div class="raw">
+        <div class="cell">4</div>
+        <div class="cell">5</div>
+        <div class="cell">6</div>
+      </div>
+      <div class="raw">
+        <div class="cell">7</div>
+        <div class="cell">8</div>
+        <div class="cell">9</div>
+      </div>
+      
   </div>
 
   <div class="footer">
@@ -392,7 +393,7 @@
           $(".side").css("margin-left", marginLeft - $(this).scrollLeft() );
         });
       });
-
+      
     </script>
 
   </body>
