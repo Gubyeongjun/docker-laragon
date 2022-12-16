@@ -1,3 +1,3 @@
 # docker-laragon
 <br>
-link : [게임페이지](http://13.209.154.171:8000/test)
+link : [http://13.209.154.171:8000/test](게임페이지)
